@@ -1,0 +1,71 @@
+.total-form input {
+  width: 100%;
+}
+.total-form select {
+  width: 100%;
+}
+
+.total-form {
+  margin: 30px;
+
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.new-form {
+  border: none;
+}
+
+.input-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.for-border {
+  border-bottom: 1px solid black;
+}
+
+.total-form1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.total-table {
+  margin-top: 30px;
+}
+
+.total-table tr {
+  border: 1px solid black;
+  height: 40px;
+}
+.total-table td {
+  border: 1px solid black;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+  height: 55px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.total-table th {
+  border: 1px solid black;
+  height: 40px;
+  background-color: rgb(170 167 167);
+  text-align: center;
+}
+
+.total-table table {
+  width: 100%;
+}
+
+.input-bottom p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.total-table select {
+  height: 30px;
+}
