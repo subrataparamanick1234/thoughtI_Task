@@ -215,6 +215,7 @@ function App() {
                           Important: !userInput.Important,
                         })
                       }
+                      style={{ cursor: "pointer" }}
                     >
                       {userInput.Important ? <RiFlag2Fill /> : <RiFlag2Line />}
                     </span>
@@ -250,6 +251,7 @@ function App() {
                           {i >= 3 ? (
                             <HiMinusCircle
                               onClick={(e) => handleRemoveFields(e, i)}
+                              style={{ cursor: "pointer" }}
                             />
                           ) : (
                             <>
